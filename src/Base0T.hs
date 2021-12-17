@@ -8,15 +8,13 @@ module Base0T
     --             tasty              --
     ------------------------------------
 
-    -- Test.Tasty
-  ,  TestTree, testGroup
+  , module Test.Tasty
 
     ------------------------------------
     --          tasty-hunit           --
     ------------------------------------
 
-    -- Test.Tasty.HUnit
-  ,  (@=?), testCase
+  , module Test.Tasty.HUnit
 )
 where
 
@@ -24,7 +22,7 @@ import Base0
 
 -- tasty -------------------------------
 
-import Test.Tasty  ( TestTree, testGroup )
+import Test.Tasty  ( TestName, TestTree, testGroup )
 
 -- tasty-hunit -------------------------
 
