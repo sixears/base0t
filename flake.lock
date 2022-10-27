@@ -2,6 +2,27 @@
   "nodes": {
     "base0": {
       "inputs": {
+        "build-utils": "build-utils",
+        "flake-utils": "flake-utils_3",
+        "nixpkgs": "nixpkgs_2"
+      },
+      "locked": {
+        "lastModified": 1666856323,
+        "narHash": "sha256-4+LOuvwGtJT9piDFUa/wm5yWRIlTsPjjQa7NuhSWuUI=",
+        "owner": "sixears",
+        "repo": "base0",
+        "rev": "f87927a06c0b358efe76fb16e4766637b85d8664",
+        "type": "github"
+      },
+      "original": {
+        "owner": "sixears",
+        "ref": "r0.0.4.1",
+        "repo": "base0",
+        "type": "github"
+      }
+    },
+    "base0_2": {
+      "inputs": {
         "flake-utils": "flake-utils",
         "nixpkgs": "nixpkgs"
       },
@@ -20,10 +41,10 @@
         "type": "github"
       }
     },
-    "base0_2": {
+    "base0_3": {
       "inputs": {
-        "flake-utils": "flake-utils_2",
-        "nixpkgs": "nixpkgs_2"
+        "flake-utils": "flake-utils_4",
+        "nixpkgs": "nixpkgs_3"
       },
       "locked": {
         "lastModified": 1666598611,
@@ -43,19 +64,39 @@
     "build-utils": {
       "inputs": {
         "base0": "base0_2",
-        "flake-utils": "flake-utils_3"
+        "flake-utils": "flake-utils_2"
       },
       "locked": {
-        "lastModified": 1666771038,
-        "narHash": "sha256-W5OFeM5A3k69GoK4husEHoAsFgxrpa031Y7+XqSSvdk=",
+        "lastModified": 1666856058,
+        "narHash": "sha256-6kkveeU7CNNvNExr0QAU7pNB/3x2GkltUFiINZ+LNEw=",
         "owner": "sixears",
         "repo": "flake-build-utils",
-        "rev": "157f4b79c2c0b8700350b42349ee2e58dd7cabbf",
+        "rev": "3c8a2d4f3e783f12fe412b671f8873fe93f59a55",
         "type": "github"
       },
       "original": {
         "owner": "sixears",
-        "ref": "r0.0.0.0",
+        "ref": "r1.0.0.0",
+        "repo": "flake-build-utils",
+        "type": "github"
+      }
+    },
+    "build-utils_2": {
+      "inputs": {
+        "base0": "base0_3",
+        "flake-utils": "flake-utils_5"
+      },
+      "locked": {
+        "lastModified": 1666856058,
+        "narHash": "sha256-6kkveeU7CNNvNExr0QAU7pNB/3x2GkltUFiINZ+LNEw=",
+        "owner": "sixears",
+        "repo": "flake-build-utils",
+        "rev": "3c8a2d4f3e783f12fe412b671f8873fe93f59a55",
+        "type": "github"
+      },
+      "original": {
+        "owner": "sixears",
+        "ref": "r1.0.0.0",
         "repo": "flake-build-utils",
         "type": "github"
       }
@@ -86,11 +127,41 @@
       },
       "original": {
         "owner": "numtide",
+        "ref": "c0e246b9",
         "repo": "flake-utils",
         "type": "github"
       }
     },
     "flake-utils_3": {
+      "locked": {
+        "lastModified": 1659877975,
+        "narHash": "sha256-zllb8aq3YO3h8B/U0/J1WBgAL8EX5yWf5pMj3G0NAmc=",
+        "owner": "numtide",
+        "repo": "flake-utils",
+        "rev": "c0e246b9b83f637f4681389ecabcb2681b4f3af0",
+        "type": "github"
+      },
+      "original": {
+        "id": "flake-utils",
+        "type": "indirect"
+      }
+    },
+    "flake-utils_4": {
+      "locked": {
+        "lastModified": 1659877975,
+        "narHash": "sha256-zllb8aq3YO3h8B/U0/J1WBgAL8EX5yWf5pMj3G0NAmc=",
+        "owner": "numtide",
+        "repo": "flake-utils",
+        "rev": "c0e246b9b83f637f4681389ecabcb2681b4f3af0",
+        "type": "github"
+      },
+      "original": {
+        "owner": "numtide",
+        "repo": "flake-utils",
+        "type": "github"
+      }
+    },
+    "flake-utils_5": {
       "locked": {
         "lastModified": 1659877975,
         "narHash": "sha256-zllb8aq3YO3h8B/U0/J1WBgAL8EX5yWf5pMj3G0NAmc=",
@@ -106,7 +177,7 @@
         "type": "github"
       }
     },
-    "flake-utils_4": {
+    "flake-utils_6": {
       "locked": {
         "lastModified": 1659877975,
         "narHash": "sha256-zllb8aq3YO3h8B/U0/J1WBgAL8EX5yWf5pMj3G0NAmc=",
@@ -168,12 +239,28 @@
         "type": "github"
       }
     },
+    "nixpkgs_4": {
+      "locked": {
+        "lastModified": 1665856284,
+        "narHash": "sha256-FQusb2DuFo8UF0jhUSPFhDKc40jRbHcdyyw4anN20WA=",
+        "owner": "nixos",
+        "repo": "nixpkgs",
+        "rev": "be44bf672c61a284f759898d1e59077b00655c4c",
+        "type": "github"
+      },
+      "original": {
+        "owner": "nixos",
+        "ref": "be44bf67",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
     "root": {
       "inputs": {
         "base0": "base0",
-        "build-utils": "build-utils",
-        "flake-utils": "flake-utils_4",
-        "nixpkgs": "nixpkgs_3"
+        "build-utils": "build-utils_2",
+        "flake-utils": "flake-utils_6",
+        "nixpkgs": "nixpkgs_4"
       }
     }
   },
