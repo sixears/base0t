@@ -10,7 +10,7 @@ name:                base0t
 -- PVP summary:      +-+------- breaking API changes
 --                   | | +----- non-breaking API additions
 --                   | | | +--- code changes with no API change
-version:             0.0.1.1
+version:             0.0.1.2
 
 -- A short (one-line) description of the package.
 synopsis:            Prelude replacement, external packages only, incl. tests
