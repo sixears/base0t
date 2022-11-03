@@ -1,3 +1,7 @@
+0.0.1.3 2022-11-03
+==================
+- more flake-build-utils upgrade
+
 0.0.1.2 2022-10-28
 ==================
 - upgrade flake-build-utils for a usable shell
