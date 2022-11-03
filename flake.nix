@@ -7,7 +7,7 @@
     base0.url       = "github:sixears/base0/r0.0.4.3";
   };
 
-  outputs = { self, nixpkgs, flake-utils, build-utils, base0 }:
+  outputs = { self, nixpkgs, build-utils, base0 }:
     build-utils.lib.hOutputs self nixpkgs "base0t" {
       deps = { inherit base0; };
       ghc  = p: p.ghc8107; # for tfmt
