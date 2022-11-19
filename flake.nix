@@ -12,7 +12,7 @@
       deps = { inherit base0; };
       ghc  = p: p.ghc8107; # for tfmt
 
-      callPackage = { mkDerivation, lib, system
+      callPackage = { mkDerivation, lib, mapPkg, system
                     , tasty, tasty-hunit }:
         let
           pkg = build-utils.lib.flake-def-pkg system;
