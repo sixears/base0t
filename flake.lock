@@ -6,16 +6,16 @@
         "nixpkgs": "nixpkgs"
       },
       "locked": {
-        "lastModified": 1668714472,
-        "narHash": "sha256-wVQXZKfrq3DO0jUTK4hkvdNJGBNTGDpzvMwFL1D8FoY=",
+        "lastModified": 1668838874,
+        "narHash": "sha256-wfFIjPoEJCAoiqw/dbRFxvuahYqmxGA3VCNNCajqHgo=",
         "owner": "sixears",
         "repo": "base0",
-        "rev": "c65dc67466b253eac735d5f9342b9d9c98f6acfb",
+        "rev": "7674db7b2866ffadc40007accc1664b828035130",
         "type": "github"
       },
       "original": {
         "owner": "sixears",
-        "ref": "r0.0.4.7",
+        "ref": "r0.0.4.10",
         "repo": "base0",
         "type": "github"
       }
@@ -25,16 +25,16 @@
         "flake-utils": "flake-utils"
       },
       "locked": {
-        "lastModified": 1668705194,
-        "narHash": "sha256-ZSzwjWX0IuFelgjX7YWJB9x1nYv11RYrUkHvmG1+YXo=",
+        "lastModified": 1668837656,
+        "narHash": "sha256-8OwroK3C07H/oljnuUugJYbvE4RAH1FEoag58SwJBiM=",
         "owner": "sixears",
         "repo": "flake-build-utils",
-        "rev": "d65bec515df7b1153b98c06e3f91e5f50adcda81",
+        "rev": "8eb022aad614f12049f552724f6cfc78f0775576",
         "type": "github"
       },
       "original": {
         "owner": "sixears",
-        "ref": "r1.0.0.11",
+        "ref": "r1.0.0.13",
         "repo": "flake-build-utils",
         "type": "github"
       }
@@ -44,16 +44,16 @@
         "flake-utils": "flake-utils_2"
       },
       "locked": {
-        "lastModified": 1668705194,
-        "narHash": "sha256-ZSzwjWX0IuFelgjX7YWJB9x1nYv11RYrUkHvmG1+YXo=",
+        "lastModified": 1668837656,
+        "narHash": "sha256-8OwroK3C07H/oljnuUugJYbvE4RAH1FEoag58SwJBiM=",
         "owner": "sixears",
         "repo": "flake-build-utils",
-        "rev": "d65bec515df7b1153b98c06e3f91e5f50adcda81",
+        "rev": "8eb022aad614f12049f552724f6cfc78f0775576",
         "type": "github"
       },
       "original": {
         "owner": "sixears",
-        "ref": "r1.0.0.11",
+        "ref": "r1.0.0.13",
         "repo": "flake-build-utils",
         "type": "github"
       }
