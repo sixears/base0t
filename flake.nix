@@ -4,7 +4,7 @@
   inputs = {
     nixpkgs.url     = "github:nixos/nixpkgs/be44bf67"; # nixos-22.05 2022-10-15
     build-utils.url = github:sixears/flake-build-utils/r1.0.0.13;
-    base0.url       = github:sixears/base0/r0.0.4.10;
+    base0.url       = github:sixears/base0/r0.0.4.11;
   };
 
   outputs = { self, nixpkgs, build-utils, base0 }:
@@ -19,7 +19,7 @@
         in
           mkDerivation {
             pname = "base0t";
-            version = "0.0.1.13";
+            version = "0.0.1.14";
             src = ./.;
             libraryHaskellDepends = [ (pkg base0) tasty tasty-hunit ];
             description = "Prelude replacement, external packages only, incl. tests";
